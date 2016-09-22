@@ -177,8 +177,8 @@
 
 			if ( $(window).scrollTop() < 500 ) {
 				$menu.removeClass('sleep');
-				$('#fh5co-offcanvass ul li').removeClass('active');
-				$('#fh5co-offcanvass ul li').first().addClass('active');
+				$('#offcanvass ul li').removeClass('active');
+				$('#offcanvass ul li').first().addClass('active');
 			}
 		
 
