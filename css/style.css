@@ -7326,12 +7326,12 @@ button.close {
     display: none !important;
   }
 }
-/* =======================================================
+/* ==================================================================================================================
 *
 * 	Template Style 
-*	Edit this section
+*	  Edit this section
 *
-* ======================================================= */
+* ================================================================================================================== */
 body {
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 400;
@@ -7471,45 +7471,45 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff;
   color: #878c93;
 }
-#fh5co-offcanvass .fh5co-lead {
+#offcanvass .fh5co-lead {
   font-size: 12px;
   letter-spacing: 2px;
   color: #ccc;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
-#fh5co-offcanvass ul {
+#offcanvass ul {
   padding: 0;
   margin: 30px 0 30px 0;
 }
-#fh5co-offcanvass ul li {
+#offcanvass ul li {
   padding: 0;
   margin: 0;
   list-style: none;
 }
-#fh5co-offcanvass ul li a {
+#offcanvass ul li a {
   display: block;
   padding: 10px 4px;
   border-bottom: 1px solid #eaeaea;
   font-size: 18px;
   color: #444;
 }
-#fh5co-offcanvass ul li a:hover, #fh5co-offcanvass ul li a:focus, #fh5co-offcanvass ul li a:active {
+#offcanvass ul li a:hover, #offcanvass ul li a:focus, #offcanvass ul li a:active {
   outline: none;
   text-decoration: none;
   color: #4fd2c2;
 }
-#fh5co-offcanvass ul li.active a {
+#offcanvass ul li.active a {
   color: #4fd2c2 !important;
 }
-#fh5co-offcanvass.fh5co-awake {
+#offcanvass.fh5co-awake {
   -webkit-transform: translateX(0px);
   -moz-transform: translateX(0px);
   -ms-transform: translateX(0px);
   -o-transform: translateX(0px);
   transform: translateX(0px);
 }
-#fh5co-offcanvass .fh5co-offcanvass-close {
+#offcanvass .offcanvass-close {
   position: absolute;
   right: 20px;
   top: 40px;
@@ -7521,18 +7521,18 @@ h1, h2, h3, h4, h5, h6 {
   float: left;
   color: #444;
 }
-#fh5co-offcanvass .fh5co-offcanvass-close i {
+#offcanvass .offcanvass-close i {
   font-size: 20px;
   margin-top: 3px;
   float: right;
   margin-left: 10px;
   color: red;
 }
-#fh5co-offcanvass .fh5co-offcanvass-close:hover, #fh5co-offcanvass .fh5co-offcanvass-close:focus, #fh5co-offcanvass .fh5co-offcanvass-close:active {
+#offcanvass .offcanvass-close:hover, #offcanvass .offcanvass-close:focus, #offcanvass .offcanvass-close:active {
   outline: none;
   text-decoration: none;
 }
-#fh5co-offcanvass .fh5co-logo {
+#offcanvass .fh5co-logo {
   display: block;
   float: left;
   width: 100%;
@@ -7543,7 +7543,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   margin: 40px 0 0 0;
 }
-#fh5co-offcanvass .fh5co-logo a {
+#offcanvass .fh5co-logo a {
   color: #000;
   padding: 0;
   margin: 0;
