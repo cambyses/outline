@@ -252,7 +252,7 @@
 
 	var HeaderToggle = function() {
 
-		var $this = $( '#fh5co-main' );
+		var $this = $( '#main' );
 			
 
 		$this.waypoint(function(direction) {
