@@ -20,13 +20,13 @@
 
 			var $this = $(this);
 
-			$('#fh5co-offcanvass').toggleClass('fh5co-awake');
+			$('#offcanvass').toggleClass('fh5co-awake');
 			$('#fh5co-page, #fh5co-menu').toggleClass('fh5co-sleep');
 
 
 
 
-			if ( $('#fh5co-offcanvass').hasClass('fh5co-awake') ) {
+			if ( $('#offcanvass').hasClass('fh5co-awake') ) {
 				$this.addClass('active');
 			} else {
 				$this.removeClass('active');
@@ -158,10 +158,10 @@
 	// Click outside of offcanvass
 	var mobileMenuOutsideClick = function() {
 		$(document).click(function (e) {
-	    var container = $("#fh5co-offcanvass, .js-fh5co-nav-toggle");
+	    var container = $("#offcanvass, .js-fh5co-nav-toggle");
 	    if (!container.is(e.target) && container.has(e.target).length === 0) {
-	    	if ( $('#fh5co-offcanvass').hasClass('fh5co-awake') ) {
-	    		$('#fh5co-offcanvass').removeClass('fh5co-awake');
+	    	if ( $('#offcanvass').hasClass('fh5co-awake') ) {
+	    		$('#offcanvass').removeClass('fh5co-awake');
 	    		$('#fh5co-page, #fh5co-menu').removeClass('fh5co-sleep');
 
 	    		$('.js-fh5co-nav-toggle').removeClass('active');
@@ -183,8 +183,8 @@
 		
 
 			if ( $(window).scrollTop() > 500 ) {
-				if ( $('#fh5co-offcanvass').hasClass('fh5co-awake') ) {
-		    		$('#fh5co-offcanvass').removeClass('fh5co-awake');
+				if ( $('#offcanvass').hasClass('fh5co-awake') ) {
+		    		$('#offcanvass').removeClass('fh5co-awake');
 		    		$('#fh5co-page, #fh5co-menu').removeClass('fh5co-sleep');
 
 		    		$('.js-fh5co-nav-toggle').removeClass('active');
@@ -611,7 +611,7 @@
 
 	// Reflect scrolling in navigation
 	var navActive = function(section) {
-		var el = $('#fh5co-offcanvass > ul');
+		var el = $('#offcanvass > ul');
 		el.find('li').removeClass('active');
 		el.each(function(){
 			$(this).find('a[data-nav-section="'+section+'"]').closest('li').addClass('active');
