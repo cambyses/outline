@@ -473,8 +473,8 @@
 
 	// Pricing Animate
 	var pricingAnimate = function() {
-		if ( $('#fh5co-pricing').length > 0 ) {	
-			$('#fh5co-pricing .to-animate').each(function( k ) {
+		if ( $('#pricing').length > 0 ) {	
+			$('#pricing .to-animate').each(function( k ) {
 				
 				var el = $(this);
 				
@@ -486,8 +486,8 @@
 		}
 	};
 	var pricingWayPoint = function() {
-		if ( $('#fh5co-pricing').length > 0 ) {
-			$('#fh5co-pricing').waypoint( function( direction ) {
+		if ( $('#pricing').length > 0 ) {
+			$('#pricing').waypoint( function( direction ) {
 										
 				if( direction === 'down' && !$(this).hasClass('animated') ) {
 					
