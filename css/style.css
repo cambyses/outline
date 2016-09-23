@@ -7714,26 +7714,26 @@ h1, h2, h3, h4, h5, h6 {
   border-color: #444;
 }
 
-#fh5co-clients {
+#clients {
   padding: 2em 0;
   background: #4fd2c2;
   position: relative;
 }
-#fh5co-clients .fh5co-client {
+#clients .fh5co-client {
   margin-bottom: 0px;
 }
 @media screen and (max-width: 992px) {
-  #fh5co-clients .fh5co-client {
+  #clients .fh5co-client {
     margin-bottom: 30px;
   }
 }
 @media screen and (max-width: 768px) {
-  #fh5co-clients .fh5co-client {
+  #clients .fh5co-client {
     margin-bottom: 30px;
   }
 }
 @media screen and (max-width: 480px) {
-  #fh5co-clients .fh5co-client img {
+  #clients .fh5co-client img {
     max-width: 100%;
   }
 }
