@@ -2,7 +2,10 @@
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), 
+  url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), 
+  url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), 
+  url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -7735,12 +7738,12 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-#fh5co-pricing {
+#pricing {
   padding: 7em 0;
   position: relative;
   border-bottom: 1px solid #f2f2f2;
 }
-#fh5co-pricing .fh5co-price {
+#pricing .fh5co-price {
   padding-top: 1em;
   display: block;
   font-size: 50px;
@@ -7748,14 +7751,14 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", arial, sans-serif;
   color: #4fd2c2;
 }
-#fh5co-pricing .fh5co-price > span {
+#pricing .fh5co-price > span {
   font-size: 16px;
   line-height: 16px;
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 400;
   color: #ccc;
 }
-#fh5co-pricing .pricing-feature {
+#pricing .pricing-feature {
   border-top: 10px solid #4fd2c2;
 }
 
