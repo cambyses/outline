@@ -271,8 +271,8 @@
 
 	// Client Animate
 	var clientAnimate = function() {
-		if ( $('#fh5co-clients').length > 0 ) {	
-			$('#fh5co-clients .to-animate').each(function( k ) {
+		if ( $('#clients').length > 0 ) {	
+			$('#clients .to-animate').each(function( k ) {
 				
 				var el = $(this);
 				
@@ -284,8 +284,8 @@
 		}
 	};
 	var clientWayPoint = function() {
-		if ( $('#fh5co-clients').length > 0 ) {
-			$('#fh5co-clients').waypoint( function( direction ) {
+		if ( $('#clients').length > 0 ) {
+			$('#clients').waypoint( function( direction ) {
 										
 				if( direction === 'down' && !$(this).hasClass('animated') ) {
 					
