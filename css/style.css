@@ -7816,7 +7816,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #fh5co-features,
 #fh5co-features-2,
-#fh5co-features-3,
+#features-3,
 #fh5co-products,
 #fh5co-faqs {
   position: relative;
@@ -7825,7 +7825,7 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 768px) {
   #fh5co-features,
   #fh5co-features-2,
-  #fh5co-features-3,
+  #features-3,
   #fh5co-products,
   #fh5co-faqs {
     padding: 4em 0;
@@ -7833,7 +7833,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-features,
-#fh5co-feature-3,
+#feature-3,
 #fh5co-faqs {
   background: #fafafa;
 }
@@ -7842,34 +7842,34 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff;
 }
 
-#fh5co-features-3 .fh5co-text-wrap {
+#features-3 .fh5co-text-wrap {
   margin-bottom: 2em;
 }
 @media screen and (max-width: 1200px) {
-  #fh5co-features-3 .fh5co-text-wrap {
+  #features-3 .fh5co-text-wrap {
     margin-top: 0em;
   }
 }
 @media screen and (max-width: 992px) {
-  #fh5co-features-3 .fh5co-text-wrap {
+  #features-3 .fh5co-text-wrap {
     margin-top: 0em;
   }
 }
-#fh5co-features-3 .fh5co-text-wrap .fh5co-text {
+#features-3 .fh5co-text-wrap .fh5co-text {
   margin-bottom: 20px;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-features-3 .fh5co-text-wrap .fh5co-text {
+  #features-3 .fh5co-text-wrap .fh5co-text {
     padding-left: 15px;
     padding-right: 15px;
   }
 }
-#fh5co-features-3 .fh5co-icon {
+#features-3 .fh5co-icon {
   font-size: 40px;
   display: block;
   margin-bottom: 20px;
 }
-#fh5co-features-3 .fh5co-icon i {
+#features-3 .fh5co-icon i {
   color: #4fd2c2;
 }
 
