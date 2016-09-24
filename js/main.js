@@ -513,8 +513,8 @@
 
 	// Features 3 Animate
 	var features3Animate = function() {
-		if ( $('#fh5co-features-3').length > 0 ) {	
-			$('#fh5co-features-3 .to-animate').each(function( k ) {
+		if ( $('#features-3').length > 0 ) {	
+			$('#features-3 .to-animate').each(function( k ) {
 				
 				var el = $(this);
 				
@@ -526,8 +526,8 @@
 		}
 	};
 	var features3WayPoint = function() {
-		if ( $('#fh5co-features-3').length > 0 ) {
-			$('#fh5co-features-3').waypoint( function( direction ) {
+		if ( $('#features-3').length > 0 ) {
+			$('#features-3').waypoint( function( direction ) {
 										
 				if( direction === 'down' && !$(this).hasClass('animated') ) {
 					
